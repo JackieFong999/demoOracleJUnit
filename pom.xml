@@ -58,6 +58,12 @@
 			</exclusions>
 		</dependency>
 
+		<!-- Log4j2 (取代 Logback) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-log4j2</artifactId>
+		</dependency>
+
 		<!-- Oracle JDBC Driver (ojdbc11 for Java 11+) -->
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>

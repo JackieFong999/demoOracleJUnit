@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <deployment>
+        <!-- Exclude JBoss logging subsystem so Log4j2 in the WAR takes full control -->
+        <exclude-subsystems>
+            <subsystem name="logging" />
+        </exclude-subsystems>
+    </deployment>
+</jboss-deployment-structure>
