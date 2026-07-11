@@ -1,0 +1,36 @@
+# ===== Maven =====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+*.war
+*.ear
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+bin/
+*.class
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ===== Logs =====
+*.log
